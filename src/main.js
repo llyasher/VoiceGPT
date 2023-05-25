@@ -5,6 +5,8 @@ import config from 'config'
 import { oga } from './oga.js'
 import { openai } from './openai.js'
 
+console.log(config.get('TEST_ENV'))
+
 const INITIAL_SESSION = {
 	messages: [],
 }
