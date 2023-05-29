@@ -1,5 +1,5 @@
 build:
-	docker build -t VoiceGPT .
+	docker build -t voicegpt .
 
 run:
-	docker run -d -p 3000:3000 --name VoiceGPT --rm VoiceGPT
+	docker run -d -p 3000:3000 --name voicegpt --rm voicegpt
