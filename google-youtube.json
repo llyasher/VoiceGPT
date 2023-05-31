@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "arched-waters-388306",
+  "private_key_id": "85dfbd67ed7914306185486b0d8f0a6aaa9b5c5c",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQCb4B/dyv8WxSww\ntDSaNUwr/1zQHFFqniewjNoFNGzmwue+lY2vluIQRQXQpnWfkQ7dy1RA0dFM6rmM\nnrK3d8adL07LCwyNL1xH0P0V99CN2+9bfA3e/mD71eIdzEVS0gb0kz3hx+Gi7l70\nYP8CGmHgqst37UrXrj3/Xqj4YHc3EzHf3XmmLKrGL6grcZrypTHmjTeD4TMA89hI\nFOIYUvYhvmP5Vk8cqHF0HB6O4EgomiDQ8ODyqtt/XKZm6g/1dTWlTxYTyrYB0C1X\nTycvz2qWjwUjyin9tBUtaeJzUBrn4sAKu6MeTr/0EfBg+h4EwbqIOeDpiRcnK8VX\nZ70sFiKtAgMBAAECggEAA0tabLJQ5AcI9YLq8mpOrdJHdPoqDlcqFh9SgKSRL+r8\nb/X+SmsCqe1c+bxK5TNZ0c+nwgQKS6eusJkLfqGGJRROJxjHOsSnS1vQd7DvqIoN\nyP3rqMPxAj6kEGaczwIzhxE0IZwA8Ssk51YJ04EwVAP2nf754IFt3ryJyVA9tMYQ\nFkY7emVWjBBl6XjxpiJEUsVm7NvLVHkXMXvBn7ikTsa8xLX3WpnwvLr6fJrx/Brj\nkt1nCffj8hBJY3/3ES9PU/MDAtLvTnjijnUSni7uBRvtIavsa40vuz2gCfbJgnuZ\nxuyyTS3Qp9cRZi7cJuT6rMQ84HGM9CiwF7yqQyKAAQKBgQDN5pShGcW17qJYUZUX\nogEyytxZWg+C9TpHXxYw+kyuwzBIVe6HJRXCnIh+CWBGgTqra11et6fjdwtVCeSq\nlmsGgpuGibdUS5mc0C65/u0rWqHgQn7g7QviO/iHCYJM7gOrb+r4oxi5Wpcev5yy\nJMNoEo7GIc58D6FIKSxv8fg4AQKBgQDBzYGD80h4g7xDElOz8XzlpUkNVGXIMRUq\nrfpJYCSVtV1DhzWywivXNjFPaN+ApzYd+C5GmQiYxZpohdXxOQfN4uQCVFoYZTDL\nyyTMS4xzUGbILAmSSSbi89AwI6cfRCJPFJyNxbl76OeroKUa94Jd9z9EH1MMBggw\n4wTUJyhKrQKBgQCmF3SZp/KG2eL3n4fHMpYI5P9uzGlq2GqUnC2IgMBO0YEnOLpb\nJh0xiZfJI8MX3LL5CHifKUMzCBqKFJryyLe43q6ajojmZL2bc4vd2bhzmn6uKrWy\nt0U4z+ug8pi7edxX9MX0n4wYKO1yjlrWkTVXxHCLf0XTacBON3hzLRtwAQKBgQCU\nAuObZr4+bD3n66NJlnEQ4j78kyx4zCOiSOUSDP9j5vOnkygLsgfRgW3/e9TWaN4H\n3XdaK55JLwFSOoS+ihPPxizlKo70erPdsPQVos1NdGZLEnbs5jlws0yYt2H3mw2o\n39EA5bVXUPU+Op5eDhHeuenzmQjP8ftnerpBXPaEsQKBgQDJfbmjrLL3pN1R+nYj\n0vLXux4N5wMwqWe9VnS/mGiRODwifibp58jTT202JmDhzdJ6EeBkHeN4PgT9BEuv\n41UVqIvo5WaaRrgD04MuloYDdB/weanaWCuPxA1WmPBJROSbzGpTIrKQxzOA/+cU\nCGcPqTbrp003CpX12c3W2qZdtA==\n-----END PRIVATE KEY-----\n",
+  "client_email": "voicegpt@arched-waters-388306.iam.gserviceaccount.com",
+  "client_id": "108232588971647561382",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/voicegpt%40arched-waters-388306.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
