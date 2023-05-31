@@ -32,9 +32,9 @@
     "typescript": "^5.0.4"
   },
   "scripts": {
-    "dev": "cross-env NODE_ENV=development nodemon ./src/main.js",
-    "start": "cross-env NODE_ENV=production node ./src/main.js",
-    "build": "ncc build src/main.js -o public -m",
+    "dev": "cross-env NODE_ENV=development nodemon ./src/index.js",
+    "start": "cross-env NODE_ENV=production node ./src/index.js",
+    "build": "ncc build src/index.js -o public -m",
     "prettier": "prettier --write 'src/**/*.ts'"
   }
 }
