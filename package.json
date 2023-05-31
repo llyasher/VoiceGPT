@@ -23,6 +23,7 @@
     "confige": "^0.3.5",
     "fluent-ffmpeg": "^2.1.2",
     "jsonwebtoken": "^9.0.0",
+    "netlify": "^13.1.7",
     "openai": "^3.2.1",
     "telegraf": "^4.12.2"
   }
