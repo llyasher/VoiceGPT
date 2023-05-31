@@ -2,7 +2,7 @@
   "name": "voice-gpt",
   "version": "1.0.0",
   "description": "Telegram бот для общения с ChatGPT голосом",
-  "main": "src/main.js",
+  "main": "src/index.js",
   "author": "Ilya Scherbatyh (https://github.com/IIyaSher)",
   "homepage": "https://github.com/IIyaSher/VoiceGPT",
   "type": "module",
