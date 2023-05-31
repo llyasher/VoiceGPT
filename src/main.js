@@ -5,7 +5,6 @@ import config from 'config'
 import { oga } from './oga.js'
 import { openai } from './openai.js'
 import { initCommand, processTextToChat, INITIAL_SESSION } from './logic.js'
-import { Telegraf } from 'telegraf';
 import { about } from './commands/index.js';
 import { VercelRequest, VercelResponse } from '@vercel/node';
 import { development, production } from './core/index.js';
