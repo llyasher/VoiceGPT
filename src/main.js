@@ -11,8 +11,7 @@ import { VercelRequest, VercelResponse } from '@vercel/node';
 import { development, production } from './core/index.js';
 
 const bot = new Telegraf(config.get('TELEGRAM_TOKEN'))
-const BOT_TOKEN = process.env.BOT_TOKEN || '';
-const ENVIRONMENT = process.env.NODE_ENV || '';
+const ENVIRONMENT = process.env.NODE_ENV || 'dev';
 
 
 bot.use(session())
