@@ -7,7 +7,6 @@ import { openai } from './openai.js'
 import { initCommand, processTextToChat, INITIAL_SESSION } from './logic.js'
 import { Telegraf } from 'telegraf';
 import { about } from './commands/index.js';
-import { greeting } from './text/index.js';
 import { VercelRequest, VercelResponse } from '@vercel/node';
 import { development, production } from './core/index.js';
 
@@ -20,7 +19,6 @@ bot.use(session())
 bot.command('new', initCommand)
 bot.command('start', initCommand)
 bot.command('about', about());
-bot.on('message', greeting());
 bot.on(message('voice'), async (ctx) => {
 	ctx.session ??= INITIAL_SESSION
 	try {
