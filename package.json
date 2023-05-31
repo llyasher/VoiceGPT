@@ -21,6 +21,7 @@
     "vercel": "^30.0.0"
   },
   "devDependencies": {
+    "@types/config": "^3.3.0",
     "@types/debug": "^4.1.7",
     "@types/node": "^18.15.11",
     "@vercel/ncc": "^0.36.1",
@@ -32,9 +33,9 @@
     "typescript": "^5.0.4"
   },
   "scripts": {
-    "dev": "cross-env NODE_ENV=development nodemon ./src/index.js",
-    "start": "cross-env NODE_ENV=production node ./src/index.js",
-    "build": "ncc build src/index.js -o public -m",
-    "prettier": "prettier --write 'src/**/*.ts'"
+    "dev": "cross-env NODE_ENV=development nodemon ./src/main.js",
+    "start": "cross-env NODE_ENV=production node ./src/main.js",
+    "build": "ncc build src/main.js -o public -m",
+    "prettier": "prettier --write 'src/**/*.js'"
   }
 }

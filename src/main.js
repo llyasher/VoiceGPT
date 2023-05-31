@@ -5,9 +5,6 @@ import config from 'config'
 import { oga } from './oga.js'
 import { openai } from './openai.js'
 import { initCommand, processTextToChat, INITIAL_SESSION } from './logic.js'
-import { about } from './commands/index.js';
-import { VercelRequest, VercelResponse } from '@vercel/node';
-import { development, production } from './core/index.js';
 
 const bot = new Telegraf(config.get('TELEGRAM_TOKEN'))
 const ENVIRONMENT = process.env.NODE_ENV || 'dev';
@@ -16,7 +13,6 @@ const ENVIRONMENT = process.env.NODE_ENV || 'dev';
 bot.use(session())
 bot.command('new', initCommand)
 bot.command('start', initCommand)
-bot.command('about', about());
 bot.on(message('voice'), async (ctx) => {
 	ctx.session ??= INITIAL_SESSION
 	try {
@@ -48,11 +44,3 @@ bot.launch()
 
 process.once('SIGINT', () => bot.stop('SIGINT'))
 process.once('SIGTERM', () => bot.stop('SIGTERM'))
-
-
-//prod mode (Vercel)
-export const startVercel = async (req: VercelRequest, res: VercelResponse) => {
-	await production(req, res, bot);
-};
-//dev mode
-ENVIRONMENT !== 'production' && development(bot);
