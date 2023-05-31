@@ -1,30 +1,40 @@
 {
-  "name": "voicegpt",
+  "name": "voice-gpt",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Telegram бот для общения с ChatGPT голосом",
+  "main": "src/main.js",
+  "author": "Ilya Scherbatyh (https://github.com/IIyaSher)",
+  "homepage": "https://github.com/IIyaSher/VoiceGPT",
   "type": "module",
-  "scripts": {
-    "dev": "cross-env NODE_ENV=development nodemon ./src/main.js",
-    "start": "cross-env NODE_ENV=production node ./src/main.js",
-    "build": "netlify deploy --prod"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "cross-env": "^7.0.3",
-    "nodemon": "^2.0.22"
-  },
   "dependencies": {
     "@ffmpeg-installer/ffmpeg": "^1.1.0",
+    "@vercel/node": "^2.10.3",
     "axios": "^1.4.0",
     "config": "^3.3.9",
     "confige": "^0.3.5",
+    "dotenv-cli": "^7.2.1",
     "fluent-ffmpeg": "^2.1.2",
     "jsonwebtoken": "^9.0.0",
     "netlify": "^13.1.7",
     "openai": "^3.2.1",
-    "telegraf": "^4.12.2"
+    "telegraf": "^4.12.2",
+    "vercel": "^30.0.0"
+  },
+  "devDependencies": {
+    "@types/debug": "^4.1.7",
+    "@types/node": "^18.15.11",
+    "@vercel/ncc": "^0.36.1",
+    "cross-env": "^7.0.3",
+    "debug": "^4.3.4",
+    "nodemon": "^2.0.22",
+    "prettier": "^2.8.7",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.4"
+  },
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development nodemon ./src/main.js",
+    "start": "cross-env NODE_ENV=production node ./src/main.js",
+    "build": "ncc build src/main.js -o public -m",
+    "prettier": "prettier --write 'src/**/*.ts'"
   }
 }

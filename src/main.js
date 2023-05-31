@@ -4,7 +4,6 @@ import { code } from 'telegraf/format'
 import config from 'config'
 import { oga } from './oga.js'
 import { openai } from './openai.js'
-import { removeFile } from './utils.js'
 import { initCommand, processTextToChat, INITIAL_SESSION } from './logic.js'
 
 const bot = new Telegraf(config.get('TELEGRAM_TOKEN'))
