@@ -1,7 +1,8 @@
+.gitignore
 .idea
 node_modules
 config/default.json
 config/production.json
 .vscode
-./voicegpt.json
-voices/*.mp3
+/voicegpt.json
+/voices/*.mp3
