@@ -1,0 +1,6 @@
+.vscode
+/node_modules
+/config/default.json
+/config/production.json
+/voicegpt.json
+/voices/*.mp3
