@@ -8,7 +8,7 @@ const __dirname = dirname(fileURLToPath(import.meta.url))
 class TextConverter {
 	async getToken() {
 		const key = JSON.parse(
-			readFileSync(resolve(__dirname, '../google-youtube.json'), 'utf-8')
+			readFileSync(resolve(__dirname, '../voicegpt.json'), 'utf-8')
 		)
 	const token = jwt.sign(
 		{
