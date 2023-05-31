@@ -23,9 +23,6 @@ bot.on(message('voice'), async (ctx) => {
 		const userId = String(ctx.message.from.id)
 		const ogaPath = await oga.create(link.href, userId)
 		const mp3Path = await oga.toMp3(ogaPath, userId)
-
-		removeFile(ogaPath)
-
 		const text = await openai.transcription(mp3Path)
 		await ctx.reply(code(`Ваш запрос: ${text}`))
 
